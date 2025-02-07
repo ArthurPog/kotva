@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 16px;
+    --primary: blue;
+    --primary-hover: pink;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none !important;
+}
+
+.cstm-ctas {
+    z-index: 10;
+}
+
+.cstm-link {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.cstm-link:hover {
+    color: var(--primary-hover);
+}
