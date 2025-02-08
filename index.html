@@ -10,9 +10,9 @@
 <body>
     <div class="cstm-ctas position-fixed start-50 translate-middle-x">
         <div class="justify-content-end">
-            <a href="#menu" class="cstm-btn btn btn-light me-2">Menu</a>
-            <a href="#location" class="cstm-btn btn btn-secondary me-2">Address</a>
-            <a href="#reservation" class="cstm-btn btn btn-dark me-2">Reservation</a>
+            <a href="#" class="cstm-btn btn btn-light me-2">Menu</a>
+            <a href="#" class="cstm-btn btn btn-secondary me-2">Address</a>
+            <a href="#" class="cstm-btn btn btn-dark me-2">Reservation</a>
         </div>
     </div>
     <div class="position-relative vh-100 d-flex flex-column align-items-center justify-content-center">
@@ -25,20 +25,28 @@
         <p class="tag fs-4 on-top">Anchor Your Taste at the Heart of Nature</p>
     </div>
     
-    <section id="menu" class="container py-5">
-        <h2 class="fw-bold">A Culinary Oasis by the Water</h2>
-        <p>Located at a dam next to a breathtaking natural reserve and cycling routes.</p>
+    <section id="menu" class="position-relative">
+        <img src="assets/scene.jpg" alt="Scenic View" class="w-100 h-auto">
+        <div class="position-absolute top-50 start-50 translate-middle text-white on-top">
+            <h2 class="fw-bold">A Culinary Oasis by the Water</h2>
+            <p>Located at a dam next to a breathtaking natural reserve and cycling routes.</p>
+        </div>
+        <div class="overlay"></div>
     </section>
-    <section class="container py-5 d-flex justify-content-between">
-        <div class="card bg-dark text-white p-3">Dish 1</div>
-        <div class="card bg-dark text-white p-3">Dish 2</div>
-        <div class="card bg-dark text-white p-3">Dish 3</div>
+    <section class="container mt-5 mb-5">
+        <h2 class="fw-bold">Some of our star dishes</h2>
+        <div class="py-5 d-flex justify-content-between">
+            <div class="card bg-dark text-white p-3">Dish 1</div>
+            <div class="card bg-dark text-white p-3">Dish 2</div>
+            <div class="card bg-dark text-white p-3">Dish 3</div>
+        </div>
     </section>
     <section id="location" class="position-relative">
-        <img src="/path-to-scenic-image.jpg" alt="Scenic View" class="w-100 h-auto">
-        <div class="position-absolute top-50 start-50 translate-middle text-white">
+        <div class="position-absolute top-50 start-50 translate-middle text-white on-top">
             <h2 class="fw-bold">Explore, Relax, Indulge</h2>
         </div>
+        <div class="overlay"></div>
+        <img src="assets/scene.jpg" alt="Scenic View" class="w-100 h-auto">
     </section>
     <footer class="bg-dark text-light py-3">
         <p class="mb-0">© KOTVA, 2025 | Follow us on <a href="" target="#" class="cstm-link">Instagram</a></p>
