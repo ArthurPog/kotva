@@ -20,7 +20,7 @@ body {
 }
 
 .cstm-top {
-    z-index: 10;
+    z-index: 5;
 }
 
 .cstm-bottom {
@@ -29,6 +29,17 @@ body {
 
 .position-relative {
     position: relative;
+}
+
+.cstm-nav {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    min-width: 100vw;
+    bottom: 0;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cstm-hero {
@@ -63,17 +74,6 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     pointer-events: none !important;
-}
-
-.cstm-ctas {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    min-width: 100vw;
-    bottom: 0;
-    padding: 1rem 1rem 1.5rem 1rem;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cstm-bg-image {
