@@ -1,8 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    transition: transform 0.2s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 :root {
@@ -159,7 +158,6 @@ body {
 .cstm-review {
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.5s ease-in-out;
     position: absolute;
     top: 0;
     right: 0;
@@ -182,7 +180,6 @@ body {
 .cstm-dish-card:hover .cstm-review {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.5s ease-in-out;
 }
 
 @media (min-width: 48rem) {
