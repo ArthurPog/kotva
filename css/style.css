@@ -36,10 +36,12 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
-    min-width: 100vw;
+    min-width: 80vw;
+    border-radius: 1rem 1rem 0 0;
     bottom: 0;
     padding: 1rem 1rem 1.5rem 1rem;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(2rem);
 }
 
 .cstm-hero {
@@ -166,9 +168,10 @@ body {
 }
 
 @media (min-width: 48rem) {
-    .cstm-ctas {
+    .cstm-nav {
         bottom: auto;
         padding: 1rem;
+        border-radius: 0 0 1rem 1rem;
     }
     
     .cstm-footer {
